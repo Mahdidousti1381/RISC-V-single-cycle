@@ -1,0 +1,125 @@
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_controller.v was successful.
+# Compile of datamemory.v was successful.
+# Compile of datapath.v was successful.
+# Compile of imm_extend.v was successful.
+# Compile of instruction.v was successful.
+# Compile of main_controller.v was successful.
+# Compile of mux1.v was successful.
+# Compile of mux2.v was successful.
+# Compile of mux3.v was successful.
+# Compile of reg.v was successful.
+# Compile of register_file.v was successful.
+# Compile of risc_controller.v was successful.
+# Compile of risc_test_bench.v was successful.
+# Compile of risc-v.v was successful.
+# 16 compiles, 0 failed with no errors.
+vsim -gui work.reisc_tb
+# vsim -gui work.reisc_tb 
+# Start time: 13:16:17 on Nov 27,2023
+# Loading work.reisc_tb
+# Loading work.top_risc
+# Loading work.risc_v_controller
+# Loading work.Alu_controller
+# Loading work.Main_controller
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Inst_mem
+# Loading work.regfile
+# Loading work.Mux1
+# Loading work.Alu
+# Loading work.Data_memory
+# Loading work.Mux2
+# Loading work.Adder
+# Loading work.Imm_extension
+# Loading work.Mux3
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/reisc_tb/risc_v/dp/Reg/reg_res
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[15]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[14]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[13]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[12]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[11]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[10]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[9]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[8]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[7]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[6]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[5]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[4]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[3]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[2]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[1]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[0]
+run
+run
+run
+add wave -position 1  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[1001]
+add wave -position 2  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[1000]
+add wave -position 3  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[999]
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position 0  sim:/reisc_tb/risc_v/dp/rf/reg_file
+vsim -gui work.reisc_tb
+# End time: 13:33:59 on Nov 27,2023, Elapsed time: 0:17:42
+# Errors: 0, Warnings: 5
+# vsim -gui work.reisc_tb 
+# Start time: 13:33:59 on Nov 27,2023
+# Loading work.reisc_tb
+# Loading work.top_risc
+# Loading work.risc_v_controller
+# Loading work.Alu_controller
+# Loading work.Main_controller
+# Loading work.datapath
+# Loading work.Register
+# Loading work.Inst_mem
+# Loading work.regfile
+# Loading work.Mux1
+# Loading work.Alu
+# Loading work.Data_memory
+# Loading work.Mux2
+# Loading work.Adder
+# Loading work.Imm_extension
+# Loading work.Mux3
+add wave -position end sim:/reisc_tb/risc_v/dp/rf/*
+add wave -position end  sim:/reisc_tb/risc_v/dp/rf/reg_file
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[1000]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[9]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[8]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[7]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[6]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[5]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[4]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[3]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[2]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[1]
+add wave -position end  sim:/reisc_tb/risc_v/dp/data_memory/data_mem[0]
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:39:16 on Nov 27,2023, Elapsed time: 2:05:17
+# Errors: 0, Warnings: 2
